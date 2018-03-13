@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MHDefaultItemTitleBGView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="imU-pw-6ij">
+                    <rect key="frame" x="164.5" y="0.0" width="50" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="BdB-OI-x0t"/>
+                        <constraint firstAttribute="width" constant="50" id="pHC-d1-Loy"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exg-cX-IWW">
+                    <rect key="frame" x="172" y="0.0" width="36.5" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="40" id="NE1-Fg-N7C"/>
+                        <constraint firstAttribute="height" constant="44" id="fbx-iZ-b8b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="0.27450980392156865" green="0.27450980392156865" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="exg-cX-IWW" secondAttribute="trailing" id="BBB-hC-jn2"/>
+                <constraint firstItem="exg-cX-IWW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" id="BEd-Bm-kdv"/>
+                <constraint firstItem="imU-pw-6ij" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Dxk-kW-3z9"/>
+                <constraint firstItem="exg-cX-IWW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PTo-Xd-qXM"/>
+                <constraint firstItem="exg-cX-IWW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="2" id="Y8b-dk-S5P"/>
+                <constraint firstItem="imU-pw-6ij" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="2" id="fVq-9G-iMf"/>
+                <constraint firstAttribute="bottom" secondItem="exg-cX-IWW" secondAttribute="bottom" id="qPS-bv-NCK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="constraintTitleLabelWidth" destination="NE1-Fg-N7C" id="RVN-SO-uHh"/>
+                <outlet property="titleImgView" destination="imU-pw-6ij" id="1Pw-CW-Gcz"/>
+                <outlet property="titleLabel" destination="exg-cX-IWW" id="sLv-2Z-ZaG"/>
+            </connections>
+            <point key="canvasLocation" x="24.5" y="-189"/>
+        </view>
+    </objects>
+</document>

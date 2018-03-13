@@ -13,6 +13,13 @@
 		AACB6E782057D2720088994F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AACB6E772057D2720088994F /* Assets.xcassets */; };
 		AACB6E7B2057D2720088994F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AACB6E792057D2720088994F /* LaunchScreen.storyboard */; };
 		AACB6E7E2057D2720088994F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB6E7D2057D2720088994F /* main.m */; };
+		AACB6E962057D40A0088994F /* MHSuperNavItemBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB6E912057D40A0088994F /* MHSuperNavItemBGView.m */; };
+		AACB6E972057D40A0088994F /* UIViewController+MHNavBarBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB6E942057D40A0088994F /* UIViewController+MHNavBarBGView.m */; };
+		AACB6E992057D4760088994F /* MHNavBarItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB6E8E2057D40A0088994F /* MHNavBarItemModel.m */; };
+		AACB6E9E2057E6160088994F /* MHDefaultItemTitleBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB6E9C2057E6160088994F /* MHDefaultItemTitleBGView.m */; };
+		AACB6E9F2057E6160088994F /* MHDefaultItemTitleBGView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AACB6E9D2057E6160088994F /* MHDefaultItemTitleBGView.xib */; };
+		AACB6EA52057E79F0088994F /* NSString+MHStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB6EA22057E79F0088994F /* NSString+MHStringUtil.m */; };
+		AACB6EA62057E79F0088994F /* UILabel+MHLabelUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AACB6EA42057E79F0088994F /* UILabel+MHLabelUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		AACB6E7A2057D2720088994F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AACB6E7C2057D2720088994F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AACB6E7D2057D2720088994F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AACB6E8D2057D40A0088994F /* MHNavBarItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHNavBarItemModel.h; sourceTree = "<group>"; };
+		AACB6E8E2057D40A0088994F /* MHNavBarItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHNavBarItemModel.m; sourceTree = "<group>"; };
+		AACB6E902057D40A0088994F /* MHSuperNavItemBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHSuperNavItemBGView.h; sourceTree = "<group>"; };
+		AACB6E912057D40A0088994F /* MHSuperNavItemBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHSuperNavItemBGView.m; sourceTree = "<group>"; };
+		AACB6E932057D40A0088994F /* UIViewController+MHNavBarBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MHNavBarBGView.h"; sourceTree = "<group>"; };
+		AACB6E942057D40A0088994F /* UIViewController+MHNavBarBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MHNavBarBGView.m"; sourceTree = "<group>"; };
+		AACB6E9A2057DF190088994F /* MHDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHDefines.h; sourceTree = "<group>"; };
+		AACB6E9B2057E6160088994F /* MHDefaultItemTitleBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHDefaultItemTitleBGView.h; sourceTree = "<group>"; };
+		AACB6E9C2057E6160088994F /* MHDefaultItemTitleBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHDefaultItemTitleBGView.m; sourceTree = "<group>"; };
+		AACB6E9D2057E6160088994F /* MHDefaultItemTitleBGView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MHDefaultItemTitleBGView.xib; sourceTree = "<group>"; };
+		AACB6EA12057E79F0088994F /* NSString+MHStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MHStringUtil.h"; sourceTree = "<group>"; };
+		AACB6EA22057E79F0088994F /* NSString+MHStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MHStringUtil.m"; sourceTree = "<group>"; };
+		AACB6EA32057E79F0088994F /* UILabel+MHLabelUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+MHLabelUtil.h"; sourceTree = "<group>"; };
+		AACB6EA42057E79F0088994F /* UILabel+MHLabelUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+MHLabelUtil.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +63,7 @@
 		AACB6E622057D2720088994F = {
 			isa = PBXGroup;
 			children = (
+				AACB6E8B2057D40A0088994F /* Class */,
 				AACB6E6D2057D2720088994F /* MHNavigationBar */,
 				AACB6E6C2057D2720088994F /* Products */,
 			);
@@ -69,6 +91,59 @@
 				AACB6E7D2057D2720088994F /* main.m */,
 			);
 			path = MHNavigationBar;
+			sourceTree = "<group>";
+		};
+		AACB6E8B2057D40A0088994F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				AACB6E9A2057DF190088994F /* MHDefines.h */,
+				AACB6EA02057E79F0088994F /* Utils */,
+				AACB6E8C2057D40A0088994F /* Model */,
+				AACB6E8F2057D40A0088994F /* View */,
+				AACB6E922057D40A0088994F /* ViewController */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		AACB6E8C2057D40A0088994F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AACB6E8D2057D40A0088994F /* MHNavBarItemModel.h */,
+				AACB6E8E2057D40A0088994F /* MHNavBarItemModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AACB6E8F2057D40A0088994F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AACB6E9B2057E6160088994F /* MHDefaultItemTitleBGView.h */,
+				AACB6E9C2057E6160088994F /* MHDefaultItemTitleBGView.m */,
+				AACB6E9D2057E6160088994F /* MHDefaultItemTitleBGView.xib */,
+				AACB6E902057D40A0088994F /* MHSuperNavItemBGView.h */,
+				AACB6E912057D40A0088994F /* MHSuperNavItemBGView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AACB6E922057D40A0088994F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AACB6E932057D40A0088994F /* UIViewController+MHNavBarBGView.h */,
+				AACB6E942057D40A0088994F /* UIViewController+MHNavBarBGView.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AACB6EA02057E79F0088994F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AACB6EA12057E79F0088994F /* NSString+MHStringUtil.h */,
+				AACB6EA22057E79F0088994F /* NSString+MHStringUtil.m */,
+				AACB6EA32057E79F0088994F /* UILabel+MHLabelUtil.h */,
+				AACB6EA42057E79F0088994F /* UILabel+MHLabelUtil.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AACB6E9F2057E6160088994F /* MHDefaultItemTitleBGView.xib in Resources */,
 				AACB6E7B2057D2720088994F /* LaunchScreen.storyboard in Resources */,
 				AACB6E782057D2720088994F /* Assets.xcassets in Resources */,
 				AACB6E762057D2720088994F /* Main.storyboard in Resources */,
@@ -144,7 +220,13 @@
 			files = (
 				AACB6E732057D2720088994F /* ViewController.m in Sources */,
 				AACB6E7E2057D2720088994F /* main.m in Sources */,
+				AACB6E9E2057E6160088994F /* MHDefaultItemTitleBGView.m in Sources */,
 				AACB6E702057D2720088994F /* AppDelegate.m in Sources */,
+				AACB6EA62057E79F0088994F /* UILabel+MHLabelUtil.m in Sources */,
+				AACB6E962057D40A0088994F /* MHSuperNavItemBGView.m in Sources */,
+				AACB6E972057D40A0088994F /* UIViewController+MHNavBarBGView.m in Sources */,
+				AACB6E992057D4760088994F /* MHNavBarItemModel.m in Sources */,
+				AACB6EA52057E79F0088994F /* NSString+MHStringUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
